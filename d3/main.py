@@ -48,7 +48,7 @@ def find_gear_ratio(engine: list[str]) -> int:
                     result += numbers[0] * numbers[1]
     return result
 
-f = open("input.txt", "r")  
+f = open("test.txt", "r")  
 engine = []
 for line in f:
     engine.append(line.strip("\n"))
